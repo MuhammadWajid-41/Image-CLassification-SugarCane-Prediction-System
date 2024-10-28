@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A40"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="335dp"
+        android:layout_height="335dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_baseline_insert_photo_24"
+        android:tintMode="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/result"
+        android:layout_below="@+id/imageView"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="#288108"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/showarray"
+        android:layout_below="@+id/result"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="#FFEB3B"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:id="@+id/correctImage"
+        android:layout_below="@+id/showarray"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="170dp"
+        android:drawableLeft="@drawable/ic_baseline_photo_camera_24"
+        android:drawableTint="@color/white"
+        android:text="Capture Image"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/button"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_photo_library_24"
+        android:drawableTint="@color/white"
+        android:text="Launch Gallery"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="gone"
+        android:layout_below="@id/imageView"
+        android:layout_centerInParent="true" />
+
+    <!-- TextView with transparent background -->
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Processing..."
+        android:layout_toRightOf="@id/progressBar"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="45dp"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:textStyle="italic"
+        android:textColor="#8BC34A"
+         />
+
+</RelativeLayout>

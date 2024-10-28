@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "928271901125",
+    "project_id": "sugarcane-image-classification",
+    "storage_bucket": "sugarcane-image-classification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928271901125:android:b5ccb96dc9fb0df8056bac",
+        "android_client_info": {
+          "package_name": "com.example.imageclassification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928271901125-ajvfh2gkmru1gt55tiogjhnf8f3covot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhFB_mypX637AUy6wxLS-CvJ-mHe19cok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928271901125-ajvfh2gkmru1gt55tiogjhnf8f3covot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
